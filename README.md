@@ -18,6 +18,7 @@ This frontend interface aims to offer a comprehensive and intuitive experience f
 - Vuelidate to ensure robust form validation
 - Pina with persistedstate plugin for efficient state management
 - Axios for streamlined XMLHttp requests
+- Boostrap (v5.2.3)
 
 ## Installation Requirements
 Ensure you have the following installed:
