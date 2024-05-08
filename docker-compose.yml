@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  dasig-web:
+    build:
+      context: .
+      target: build-stage
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    env_file:
+      - ./.env
+    ports:
+      - 1003:8080
+networks:
+  dasignet:
+    external: true
